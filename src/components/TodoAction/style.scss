@@ -1,0 +1,26 @@
+.todo {
+    &-action {
+        border-top: 1px solid #f0f0f0;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 15px;
+    }
+
+    &-filter {
+        .inline-item {
+            display: inline-block;            
+            border: none;
+            text-transform: capitalize;
+            padding: 0;
+
+            a {
+                color: #777;
+                padding: 0 20px;
+                border: 1px solid transparent;
+                border-radius: 3px;
+            }
+        }
+    }
+}
